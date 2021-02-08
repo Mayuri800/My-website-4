@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: crimson;
+   
+    background-color: white;
+}
+h2{
+    text-align: center;
+    color:black;
+    border: solid;
+    background-color: cyan;
+}
+.item{
+    display:flex;
+    flex-direction: row;
+}
+.item img{
+    opacity: 0;
+}
+h3{
+    text-align: center;
+    color:purple;
+    border:solid;
+    border-color:black;
+    background-color: white;
+}
+body{
+  background-image:url('Heart.jpg') ;
+}
+.item:hover img{
+    opacity: 0.33%;
+}
